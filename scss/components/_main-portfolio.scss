@@ -31,6 +31,7 @@
 }
 
 .item__frame {
+  position: relative;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -68,7 +69,7 @@ img {
   left: 0;
   width: 100%;
   height: 294px;
-  transform: translatey(-101%);
+  transform: translatey(100%);
   transition: transform 250ms ease;
   background: rgba(33, 150, 243, 0.9);
 

@@ -41,6 +41,9 @@
         margin-bottom: 10px;
     }
 }
+.team__member div {
+    padding: 30px 32px;
+}
 .team__link-member {
     width: 206px;
     height: 44px;
@@ -81,4 +84,39 @@
         background-color: $accentcolor;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+}
+.insta {
+    width: 20px;
+    height: 20px;
+    fill: $primarywhitecolor;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.twiter {
+    width: 20px;
+    height: 20px;
+    fill: primarywhitecolor;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.facebook {
+    width: 20px;
+    height: 20px;
+    fill: primarywhitecolor;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.linkedin {
+    width: 20px;
+    height: 20px;
+    fill: primarywhitecolor;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
