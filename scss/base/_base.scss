@@ -30,9 +30,26 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  &__name {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $notitletextcolor;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &:nth-child(3) {
+    padding-top: 0;
+  }
 }
 
 body {

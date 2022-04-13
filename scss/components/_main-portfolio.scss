@@ -36,6 +36,14 @@
   border-left: 1px solid #eeeeee;
   padding: 20px 24px;
 }
+.item__name-project {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: $notitletextcolor;
+}
 img {
   display: block;
   width: 100%;

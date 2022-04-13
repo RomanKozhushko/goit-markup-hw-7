@@ -32,7 +32,16 @@
     background-color: $accentcolor;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+  &__link {
+  width: 206px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin-top: 20px;
+  }
 }
+
 .insta {
   width: 20px;
   height: 20px;
@@ -174,5 +183,33 @@
     align-items: center;
     height: 50px;
     margin-top: 20px;
+  }
+}
+.media__circles {
+  fill: $greyboarder;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.media__circle {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  &:hover,
+  &:focus,
+  &:active {
+    transition-duration: 250ms;
+    background-color: $accentcolor;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
