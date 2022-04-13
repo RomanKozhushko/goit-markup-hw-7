@@ -1,0 +1,46 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+.navigation,
+.contacts,
+.navigation__link,
+.contacts__link,
+.advances,
+.team,
+.button-box {
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+.container {
+  margin: auto;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  color: $titletextcolor;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+}
