@@ -119,14 +119,18 @@
     color: $primarywhitecolor;
     text-transform: uppercase;
   }
-  &__address {
+  
+}
+.footer__address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   font-style: normal;
   margin-top: 20px;
-  }
+  
 }
+  
+
 .footer-form {
   &__fild {
     max-width: 570px;
