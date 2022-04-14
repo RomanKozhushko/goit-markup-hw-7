@@ -1,9 +1,4 @@
 
-.color-adventage {
-  background-color: $fonecolor;
-}
-
-
 .advanсes__description {
   font-size: 14px;
   line-height: 1.71;
@@ -13,13 +8,14 @@
 }
 
 .advances {
-  justify-content: space-between;
-  &__color {
-    background-color: $primarywhitecolor;
+   background-color: $primarywhitecolor;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+  
+  &__box {
+    justify-content: space-between;
   }
 
   &__item {
@@ -49,5 +45,3 @@
     margin-top: 30px;
   }
 }
-
-/* box-advantage */

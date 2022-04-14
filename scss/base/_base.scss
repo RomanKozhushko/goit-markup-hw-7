@@ -13,12 +13,12 @@ p {
   margin: 0;
   padding: 0;
 }
-.navigation,
+.navigation__list,
 .contacts,
 .navigation__link,
 .contacts__link,
-.advances,
-.team,
+.advances__box,
+.team__list,
 .button-box {
   margin: 0;
   list-style: none;
@@ -31,21 +31,23 @@ p {
   padding-right: 15px;
 }
 
+.title {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $notitletextcolor;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  &__name {
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: $notitletextcolor;
-    margin-right: auto;
-    margin-left: auto;
-  }
+ 
 
   &:nth-child(3) {
     padding-top: 0;
